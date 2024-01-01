@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 // Use cors middleware
 const corsOptions = {
-  origin: "http://localhost:5173", // Replace with the actual origin of your React app
+  origin: "https://training-app-client.vercel.app/",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
   optionsSuccessStatus: 204,
